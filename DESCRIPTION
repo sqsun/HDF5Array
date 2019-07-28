@@ -17,7 +17,7 @@ biocViews: Infrastructure, DataRepresentation, DataImport, Sequencing, RNASeq,
 	Coverage, Annotation, GenomeAnnotation, SingleCell, ImmunoOncology
 Depends: R (>= 3.4), methods, DelayedArray (>= 0.11.4), rhdf5 (>= 2.25.6)
 Imports: utils, tools, BiocGenerics (>= 0.31.5), S4Vectors, IRanges
-LinkingTo: S4Vectors (>= 0.20.6), Rhdf5lib
+LinkingTo: S4Vectors (>= 0.20.1), Rhdf5lib
 Suggests: h5vcData, SummarizedExperiment (>= 1.15.1), GenomicRanges,
 	ExperimentHub, TENxBrainData, BiocParallel, GenomicFeatures, BiocStyle
 License: Artistic-2.0
